@@ -23,3 +23,17 @@ class Credentials:
      @classmethod
      def display_credentials(cls):
           return cls.credential_details
+
+        
+     @classmethod
+     def find_by_username(cls,account):
+         '''
+         this method takes in usernmame and returns a password that match that number 
+         Args:
+         account: password number to search for
+         Returns :
+         password of person that matches the number.
+         '''
+         for credential in cls.credential_details:
+             if(credential.credentials_username == account):
+                 return credential
