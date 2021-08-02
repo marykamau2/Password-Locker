@@ -6,7 +6,7 @@ class TestCredential(unittest.TestCase):
     def setUp(self):
           
         
-            self.new_credentials = Credentials('Facebook', 'kelvinrono', '12345')
+            self.new_credentials = Credentials('Facebook', 'marykamau', '12345')
     def test_init(self):
 
             '''
@@ -14,7 +14,7 @@ class TestCredential(unittest.TestCase):
             in the credentials cass have been initialized properly
             '''
             self.assertEqual(self.new_credentials.credentials_account, "Facebook")
-            self.assertEqual(self.new_credentials.credentials_username, "kelvinrono")
+            self.assertEqual(self.new_credentials.credentials_username, "marykamau")
             self.assertEqual(self.new_credentials.credentials_password, "12345")
     
   
