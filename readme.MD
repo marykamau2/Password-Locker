@@ -1,4 +1,4 @@
-Paaword Locker App
+Password Locker App
 ## Author
 Mary Kamau
 ## Description
