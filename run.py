@@ -6,51 +6,51 @@ def createUserAccount(firstName, lastName, username, password):
     '''
     This function will create a new user account
     '''
-#     new_user = User(firstName, lastName, username,password)
-#     return new_user
+    new_user = User(firstName, lastName, username,password)
+    return new_user
 
-# def create_credentials(credential_account, credential_username,credential_password):
-#     '''
-#     Function to create new contact
-#     '''
-#     new_credentials = Credentials(credential_account, credential_username, credential_password)
-#     return new_credentials
-
-
-# def save_user(user):
-#     '''
-#     Function that will save the user
-#     '''
+def create_credentials(credential_account, credential_username,credential_password):
+    '''
+    Function to create new contact
+    '''
+    new_credentials = Credentials(credential_account, credential_username, credential_password)
+    return new_credentials
 
 
-# def save_credentials(credential):
-#     '''
-#     Function to save contact
-#     '''
-#     credential.save_credentials()
+def save_user(user):
+    '''
+    Function that will save the user
+    '''
 
-# def delete_credentials(credential):
-#     '''
-#     This is a function that deletes credentials
-#     '''
-#     Credentials.delete_credentials()
-# def display_user():
-#     return User.display_user()
-# def find_credential(account):
-#     """
-#     Function that finds a Credentials by an account name and returns the Credentials that belong to that account
-#     """
-#     return Credentials.find_by_username(account)
 
-# def display_credentials():
-#     return Credentials.display_credentials()
+def save_credentials(credential):
+    '''
+    Function to save contact
+    '''
+    credential.save_credentials()
 
-# def randomgenerator():
-#     '''
-#     This is a method that will create random passwords
-#     '''
-#     rand = random.randint(10000,99999)
-#     return rand
+def delete_credentials(credential):
+    '''
+    This is a function that deletes credentials
+    '''
+    Credentials.delete_credentials()
+def display_user():
+    return User.display_user()
+def find_credential(account):
+    """
+    Function that finds a Credentials by an account name and returns the Credentials that belong to that account
+    """
+    return Credentials.find_by_username(account)
+
+def display_credentials():
+    return Credentials.display_credentials()
+
+def randomgenerator():
+    '''
+    This is a method that will create random passwords
+    '''
+    rand = random.randint(10000,99999)
+    return rand
 
 # def main():
 #     print('Welcome to password Locker app,please enter your name \n ')
