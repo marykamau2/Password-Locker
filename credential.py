@@ -1,5 +1,3 @@
 class Credentials:
-    def __init__(self, firstName, lastName, username):
-        self.firstName = firstName
-        self.lastName = lastName
-        self.username = username
+    
+    credential_details = [] #initialize an array to store the credential details
