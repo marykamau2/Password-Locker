@@ -13,3 +13,13 @@ class Credentials:
          Save the credentials of a user
          '''
          Credentials.credential_details.append(self)
+     def delete_credentials(self):
+         """
+         delete saved credentials in the credentials list
+         """
+         Credentials.credential_details.remove(self)
+
+  
+     @classmethod
+     def display_credentials(cls):
+          return cls.credential_details
