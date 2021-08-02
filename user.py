@@ -10,3 +10,14 @@ class User:
         self.firstName = firstName
         self.lastName = lastName
         self.username = username
+
+
+    def save_user(self):
+        '''Method to save the detais of a user
+        '''
+        User.user_list.append(self)
+    
+
+    @classmethod
+    def display_user(cls):
+        return cls.user_list   
