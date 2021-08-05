@@ -1,6 +1,6 @@
 Password Locker App
 ## Author
-Mary Kamau
+Mary Njeri
 ## Description
 This is an application that allows someone to store his credential of all the accounts he/she has. These include facebook, twitter, instagram... 
 You first have to enter the credentials details to register in the app. Then you proceed in saving the credentials you have. i.e the username and the password 
